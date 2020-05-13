@@ -22,8 +22,11 @@ $(document).ready(function() {
   let favoritos = "Os Miseráveis, Mulan"
   let favDoMomento = "Parasita"
 
+                   //propriedade,valor
   $("body").css("font-family", "Arial, sans-serif")
 
+
+  
   $("#nickname").text(nickname)
   $("#cidade").text(cidade)
   $("#favoritos").text([favoritos, favDoMomento])
